@@ -1,0 +1,11 @@
+server:
+    build: .
+    container_name: opsdash-server
+    restart: always
+    ports:
+        - "8080:8080"
+        - "6273:8080"
+        - "6273/udp:6273/udp"
+    volumes:
+        - ./server.cfg:/etc/opsdash/server.cfg
+        - ./supervisord.conf:/etc/supervisor/conf.d/supervisord.conf
