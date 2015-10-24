@@ -1,10 +1,10 @@
 # OpsDash Dockerfile
 
-This is a Dockefile to easily setup the [DashOps](https://www.opsdash.com)-Server with docker.
+This is a Dockefile to easily setup the [OpsDash](https://www.opsdash.com)-Server with docker.
 
 ## Install & Setup
 
-- Create an account on [DashOps](https://www.opsdash.com).
+- Create an account on [OpsDash](https://www.opsdash.com).
 - Login to OpsDash and download the current `.dep`-file for the server into the `dep`-directory (you can only download the file if you are logged in). At the time of writing this is `dep/opsdash-server_1.6_amd64.deb`.
 - Change the config in `server.cfg` to your needs.
 
